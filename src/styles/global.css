@@ -1,0 +1,42 @@
+/* Base Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 
+  Set base font size
+  62.5% of 16px = 10px
+  Now: 1rem = 10px
+*/
+html {
+  font-size: 62.5%;
+}
+
+/* Global body styles */
+body {
+  font-family: var(--font-primary);
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  font-size: 1.6rem; /* 16px base text */
+  line-height: 1.5;
+}
+
+/* Common form elements */
+input,
+select,
+textarea {
+  font-family: var(--font-primary);
+  font-size: 1.4rem; /* 14px */
+  color: var(--color-text);
+}
+
+/* Buttons reset */
+button {
+  font-family: var(--font-primary);
+  font-size: 1.4rem;
+  cursor: pointer;
+  border: none;
+  color: #fff;
+}

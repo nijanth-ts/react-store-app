@@ -1,0 +1,22 @@
+:root {
+  /* Primary font family */
+  --font-primary: "Roboto", sans-serif;
+
+  /* Brand & UI colors */
+  --color-primary: #2D74C4;   /* Primary action color */
+  --color-secondary: #3B775D;   /* Secondary action color */
+  --color-danger: #dc2626;    /* Error / delete actions */
+  --color-bg: #f8fafc;        /* App background */
+  --color-text: #1f2937;      /* Main text color */
+  --color-muted: #E6E7EC;     /* Secondary / muted text */
+  --color-border: #e5e7eb;    /* Borders & dividers */
+
+  /* Font sizes */
+  --font-sm: 14px;            /* Small text */
+  --font-md: 16px;            /* Base text */
+  --font-lg: 18px;            /* Headings */
+
+  /* Border radius */
+  --radius-sm: 4px;           /* Small elements */
+  --radius-md: 8px;           /* Cards & containers */
+}
